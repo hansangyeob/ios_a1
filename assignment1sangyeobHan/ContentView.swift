@@ -8,14 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    var CoffeeShopBrands: [CoffeeShopBrand] = CoffeeShopBrand.allCoffeeBrand
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
+        NavigationView{
+            List{
+                ForEach(CoffeeShopBrands, id: \.founderYear ){
+                    CoffeeShopBrand in
+                    Text("\(CoffeeShopBrand.founderYear)")
+                }
+            }
+        }
+        }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+
+
+
+
+
