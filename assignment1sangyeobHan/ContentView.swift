@@ -13,13 +13,17 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             List{
-                ForEach(CoffeeShopBrands, id: \.founderYear ){
-                    CoffeeShopBrand in
-                    Text("\(CoffeeShopBrand.founderYear)")
+                ForEach(CoffeeShopBrands, id: \.founderYear ){ CoffeeShopBrand in
+                    NavigationLink(destination:
+                                    DetailView(coffeeShopBrand: CoffeeShopBrand)) {
+                        VStack(alignment: .leading){
+                            Text("\(CoffeeShopBrand.brandTitle)")
+                        }
+                    }
                 }
             }
         }
-        }
+    }
 }
 
 
