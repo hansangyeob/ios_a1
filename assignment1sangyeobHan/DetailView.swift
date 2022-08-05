@@ -8,16 +8,42 @@
 import SwiftUI
 
 struct DetailView: View {
+    
+    let backgroundColor = Color("#")
+    
     var coffeeShopBrand : CoffeeShopBrand
     
     var body: some View {
+        ZStack{
+            Color.white
+                    .ignoresSafeArea()
         VStack(spacing:10){
-            Text("\(coffeeShopBrand.logoImage)")
+            
+            Image("\(coffeeShopBrand.logoImage)")
+                .resizable()
+                .frame(width: 100, height: 100, alignment:.center)
+                .cornerRadius(15)
+            Spacer()
+            
             Text("\(coffeeShopBrand.brandTitle)")
-            Text("\(coffeeShopBrand.founderYear)")
+                .font(.headline)
+            
+            Spacer()
+            
+            Text("Founded Year : \(coffeeShopBrand.founderYear)")
+            Spacer()
             Text("\(coffeeShopBrand.description)")
+                .font(.system(size: 16, weight: .light, design: .serif))
+                .lineSpacing(3)
+                .padding()
+                .frame(width: 300, height: 300, alignment: .center)
+                .background(Color.brown.opacity(0.1))
+                .cornerRadius(10)
+                .lineLimit(nil)
         }
     }
+        
+}
 }
 
 struct DetailView_Previews: PreviewProvider {

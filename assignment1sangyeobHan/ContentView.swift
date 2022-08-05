@@ -7,24 +7,31 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var CoffeeShopBrands: [CoffeeShopBrand] = CoffeeShopBrand.allCoffeeBrand
+extension UserDefaults{
     
-    var body: some View {
-        NavigationView{
-            List{
-                ForEach(CoffeeShopBrands, id: \.founderYear ){ CoffeeShopBrand in
-                    NavigationLink(destination:
-                                    DetailView(coffeeShopBrand: CoffeeShopBrand)) {
-                        VStack(alignment: .leading){
-                            Text("\(CoffeeShopBrand.brandTitle)")
-                        }
-                    }
-                }
-            }
+    var welcomeScreenShown: Bool{
+        get{
+            return (UserDefaults.standard.value(forKey: "welcomeScreenShown") as? Bool ?? false )
+        }set{
+            UserDefaults.standard.setValue(newValue,forKey: "welcomeScreenShown")
         }
     }
 }
+
+struct ContentView: View {
+    
+    var CoffeeShopBrands: [CoffeeShopBrand] = CoffeeShopBrand.allCoffeeBrand
+
+    var body: some View {
+        
+        if UserDefaults.standard.welcomeScreenShown{
+                Home()
+            }else{
+                InitPage()
+        }
+    }
+}
+
 
 
 struct ContentView_Previews: PreviewProvider {
