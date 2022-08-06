@@ -7,35 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB15E2C2289E493A00AC9FC8 /* WalkThroughScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB15E2C1289E493A00AC9FC8 /* WalkThroughScreen.swift */; };
 		BB22B35B289BC86A00C97697 /* assignment1sangyeobHanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB22B35A289BC86A00C97697 /* assignment1sangyeobHanApp.swift */; };
 		BB22B35D289BC86A00C97697 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB22B35C289BC86A00C97697 /* ContentView.swift */; };
 		BB22B35F289BC86B00C97697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB22B35E289BC86B00C97697 /* Assets.xcassets */; };
 		BB22B362289BC86B00C97697 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB22B361289BC86B00C97697 /* Preview Assets.xcassets */; };
-		BB22B369289BC88E00C97697 /* ShopData.json in Resources */ = {isa = PBXBuildFile; fileRef = BB22B368289BC88E00C97697 /* ShopData.json */; };
-		BB22B36B289BC8DE00C97697 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB22B36A289BC8DE00C97697 /* JSONManager.swift */; };
 		BB22B36D289BC9C800C97697 /* File in Resources */ = {isa = PBXBuildFile; fileRef = BB22B36C289BC9C800C97697 /* File */; };
 		BB22B36F289BD00800C97697 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB22B36E289BD00800C97697 /* DetailView.swift */; };
-		BB5CE4E9289D00B600D18F6B /* InitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5CE4E8289D00B600D18F6B /* InitPage.swift */; };
 		BB5CE4EB289D104200D18F6B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5CE4EA289D104200D18F6B /* Home.swift */; };
-		BB705279289E3669005B2B6D /* JSONManager1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB705277289E3669005B2B6D /* JSONManager1.swift */; };
+		BB705279289E3669005B2B6D /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB705277289E3669005B2B6D /* JSONManager.swift */; };
 		BB70527B289E3698005B2B6D /* File2.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BB70527A289E3698005B2B6D /* File2.rtf */; };
+		BBBF2BE7289E39CC00E3504A /* ShopData.json in Resources */ = {isa = PBXBuildFile; fileRef = BBBF2BE6289E39CC00E3504A /* ShopData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB15E2C0289E3C9E00AC9FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BB15E2C1289E493A00AC9FC8 /* WalkThroughScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThroughScreen.swift; sourceTree = "<group>"; };
 		BB22B357289BC86A00C97697 /* assignment1sangyeobHan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assignment1sangyeobHan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB22B35A289BC86A00C97697 /* assignment1sangyeobHanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment1sangyeobHanApp.swift; sourceTree = "<group>"; };
 		BB22B35C289BC86A00C97697 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB22B35E289BC86B00C97697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB22B361289BC86B00C97697 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BB22B368289BC88E00C97697 /* ShopData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ShopData.json; path = ../../../../Documents/iOS_dev/Shared/ShopData.json; sourceTree = "<group>"; };
-		BB22B36A289BC8DE00C97697 /* JSONManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONManager.swift; path = ../../../../Documents/iOS_dev/Shared/JSONManager.swift; sourceTree = "<group>"; };
 		BB22B36C289BC9C800C97697 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 		BB22B36E289BD00800C97697 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		BB5CE4E8289D00B600D18F6B /* InitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitPage.swift; sourceTree = "<group>"; };
 		BB5CE4EA289D104200D18F6B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		BB705277289E3669005B2B6D /* JSONManager1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager1.swift; sourceTree = "<group>"; };
-		BB705278289E3669005B2B6D /* ShopData1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ShopData1.json; sourceTree = "<group>"; };
+		BB705277289E3669005B2B6D /* JSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
 		BB70527A289E3698005B2B6D /* File2.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = File2.rtf; sourceTree = "<group>"; };
+		BBBF2BE6289E39CC00E3504A /* ShopData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ShopData.json; path = "../../../Downloads/ios_a1-main/assignment1sangyeobHan/ShopData.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,15 +67,16 @@
 		BB22B359289BC86A00C97697 /* assignment1sangyeobHan */ = {
 			isa = PBXGroup;
 			children = (
+				BB15E2C0289E3C9E00AC9FC8 /* Info.plist */,
 				BB22B35A289BC86A00C97697 /* assignment1sangyeobHanApp.swift */,
 				BB22B35C289BC86A00C97697 /* ContentView.swift */,
-				BB22B35E289BC86B00C97697 /* Assets.xcassets */,
-				BB22B360289BC86B00C97697 /* Preview Content */,
 				BB22B36E289BD00800C97697 /* DetailView.swift */,
-				BB5CE4E8289D00B600D18F6B /* InitPage.swift */,
-				BB705278289E3669005B2B6D /* ShopData1.json */,
-				BB705277289E3669005B2B6D /* JSONManager1.swift */,
+				BBBF2BE6289E39CC00E3504A /* ShopData.json */,
+				BB22B35E289BC86B00C97697 /* Assets.xcassets */,
+				BB705277289E3669005B2B6D /* JSONManager.swift */,
 				BB70527A289E3698005B2B6D /* File2.rtf */,
+				BB15E2C1289E493A00AC9FC8 /* WalkThroughScreen.swift */,
+				BB22B360289BC86B00C97697 /* Preview Content */,
 			);
 			path = assignment1sangyeobHan;
 			sourceTree = "<group>";
@@ -86,8 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				BB22B361289BC86B00C97697 /* Preview Assets.xcassets */,
-				BB22B368289BC88E00C97697 /* ShopData.json */,
-				BB22B36A289BC8DE00C97697 /* JSONManager.swift */,
 				BB22B36C289BC9C800C97697 /* File */,
 			);
 			path = "Preview Content";
@@ -155,7 +152,7 @@
 				BB22B36D289BC9C800C97697 /* File in Resources */,
 				BB22B362289BC86B00C97697 /* Preview Assets.xcassets in Resources */,
 				BB22B35F289BC86B00C97697 /* Assets.xcassets in Resources */,
-				BB22B369289BC88E00C97697 /* ShopData.json in Resources */,
+				BBBF2BE7289E39CC00E3504A /* ShopData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,10 +164,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB22B35D289BC86A00C97697 /* ContentView.swift in Sources */,
-				BB705279289E3669005B2B6D /* JSONManager1.swift in Sources */,
+				BB15E2C2289E493A00AC9FC8 /* WalkThroughScreen.swift in Sources */,
+				BB705279289E3669005B2B6D /* JSONManager.swift in Sources */,
 				BB22B36F289BD00800C97697 /* DetailView.swift in Sources */,
-				BB22B36B289BC8DE00C97697 /* JSONManager.swift in Sources */,
-				BB5CE4E9289D00B600D18F6B /* InitPage.swift in Sources */,
 				BB5CE4EB289D104200D18F6B /* Home.swift in Sources */,
 				BB22B35B289BC86A00C97697 /* assignment1sangyeobHanApp.swift in Sources */,
 			);
@@ -303,9 +299,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"assignment1sangyeobHan/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = assignment1sangyeobHan/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -331,9 +328,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"assignment1sangyeobHan/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = assignment1sangyeobHan/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -30,7 +30,7 @@ struct Home: View {
                                     .lineLimit(nil)
                             }.padding(.leading,3)
                         }.padding(.leading, 16)
-                    }.navigationTitle("VietNam Top 9")
+                    }.navigationTitle("Top 9")
                 }
             }
         }

@@ -36,7 +36,7 @@ struct DetailView: View {
                 .font(.system(size: 16, weight: .light, design: .serif))
                 .lineSpacing(3)
                 .padding()
-                .frame(width: 300, height: 300, alignment: .center)
+                .frame(width: 300, height: 350, alignment: .center)
                 .background(Color.brown.opacity(0.1))
                 .cornerRadius(10)
                 .lineLimit(nil)

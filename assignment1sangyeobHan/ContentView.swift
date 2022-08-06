@@ -7,31 +7,20 @@
 
 import SwiftUI
 
-extension UserDefaults{
-    
-    var welcomeScreenShown: Bool{
-        get{
-            return (UserDefaults.standard.value(forKey: "welcomeScreenShown") as? Bool ?? false )
-        }set{
-            UserDefaults.standard.setValue(newValue,forKey: "welcomeScreenShown")
-        }
-    }
-}
-
 struct ContentView: View {
     
+    @AppStorage("currentPage") var currentPage = 1
     var CoffeeShopBrands: [CoffeeShopBrand] = CoffeeShopBrand.allCoffeeBrand
 
     var body: some View {
         
-        if UserDefaults.standard.welcomeScreenShown{
-                Home()
-            }else{
-                InitPage()
+        if currentPage == totalPages{
+            Home()
+        }else{
+            WalkThroughScreen()
         }
     }
 }
-
 
 
 struct ContentView_Previews: PreviewProvider {
@@ -39,7 +28,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
 
 
 
