@@ -17,6 +17,7 @@
 		BB22B36F289BD00800C97697 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB22B36E289BD00800C97697 /* DetailView.swift */; };
 		BB5CE4E9289D00B600D18F6B /* InitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5CE4E8289D00B600D18F6B /* InitPage.swift */; };
 		BB5CE4EB289D104200D18F6B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5CE4EA289D104200D18F6B /* Home.swift */; };
+		BB705276289E3598005B2B6D /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB705274289E3598005B2B6D /* JSONManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		BB22B36E289BD00800C97697 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		BB5CE4E8289D00B600D18F6B /* InitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitPage.swift; sourceTree = "<group>"; };
 		BB5CE4EA289D104200D18F6B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		BB705274289E3598005B2B6D /* JSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
+		BB705275289E3598005B2B6D /* ShopData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ShopData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				BB22B360289BC86B00C97697 /* Preview Content */,
 				BB22B36E289BD00800C97697 /* DetailView.swift */,
 				BB5CE4E8289D00B600D18F6B /* InitPage.swift */,
+				BB705275289E3598005B2B6D /* ShopData.json */,
+				BB705274289E3598005B2B6D /* JSONManager.swift */,
 			);
 			path = assignment1sangyeobHan;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB22B35D289BC86A00C97697 /* ContentView.swift in Sources */,
+				BB705276289E3598005B2B6D /* JSONManager.swift in Sources */,
 				BB22B36F289BD00800C97697 /* DetailView.swift in Sources */,
 				BB22B36B289BC8DE00C97697 /* JSONManager.swift in Sources */,
 				BB5CE4E9289D00B600D18F6B /* InitPage.swift in Sources */,
