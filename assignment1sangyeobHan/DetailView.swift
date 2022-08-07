@@ -9,8 +9,6 @@ import SwiftUI
 
 struct DetailView: View {
     
-    let backgroundColor = Color("#")
-    
     var coffeeShopBrand : CoffeeShopBrand
     
     var body: some View {
@@ -27,6 +25,7 @@ struct DetailView: View {
             
             Text("\(coffeeShopBrand.brandTitle)")
                 .font(.headline)
+            
             
             Spacer()
             
