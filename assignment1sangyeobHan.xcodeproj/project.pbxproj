@@ -16,7 +16,7 @@
 		BB22B36F289BD00800C97697 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB22B36E289BD00800C97697 /* DetailView.swift */; };
 		BB5CE4EB289D104200D18F6B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5CE4EA289D104200D18F6B /* Home.swift */; };
 		BB705279289E3669005B2B6D /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB705277289E3669005B2B6D /* JSONManager.swift */; };
-		BBD6254B289FAAFE00DAB945 /* ShopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD6254A289FAAFE00DAB945 /* ShopData.swift */; };
+		BBD6254E289FAC3C00DAB945 /* ShopData.json in Resources */ = {isa = PBXBuildFile; fileRef = BBD6254D289FAC3C00DAB945 /* ShopData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,7 @@
 		BB22B36E289BD00800C97697 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		BB5CE4EA289D104200D18F6B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		BB705277289E3669005B2B6D /* JSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
-		BBD6254A289FAAFE00DAB945 /* ShopData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopData.swift; sourceTree = "<group>"; };
-		BBD6254C289FAB2B00DAB945 /* ShopData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = ShopData.json; path = "../../Downloads/ios_a1-main/assignment1sangyeobHan/ShopData.json"; sourceTree = "<group>"; };
+		BBD6254D289FAC3C00DAB945 /* ShopData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ShopData.json; path = ../../Documents/ios_a1/assignment1sangyeobHan/ShopData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +50,7 @@
 			children = (
 				BB22B36C289BC9C800C97697 /* readMe */,
 				BB5CE4EA289D104200D18F6B /* Home.swift */,
-				BBD6254C289FAB2B00DAB945 /* ShopData.json */,
+				BBD6254D289FAC3C00DAB945 /* ShopData.json */,
 				BB22B359289BC86A00C97697 /* assignment1sangyeobHan */,
 				BB22B358289BC86A00C97697 /* Products */,
 			);
@@ -72,7 +71,6 @@
 				BB22B35A289BC86A00C97697 /* assignment1sangyeobHanApp.swift */,
 				BB22B35C289BC86A00C97697 /* ContentView.swift */,
 				BB22B36E289BD00800C97697 /* DetailView.swift */,
-				BBD6254A289FAAFE00DAB945 /* ShopData.swift */,
 				BB22B35E289BC86B00C97697 /* Assets.xcassets */,
 				BB705277289E3669005B2B6D /* JSONManager.swift */,
 				BB15E2C1289E493A00AC9FC8 /* WalkThroughScreen.swift */,
@@ -148,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB22B36D289BC9C800C97697 /* readMe in Resources */,
+				BBD6254E289FAC3C00DAB945 /* ShopData.json in Resources */,
 				BB22B362289BC86B00C97697 /* Preview Assets.xcassets in Resources */,
 				BB22B35F289BC86B00C97697 /* Assets.xcassets in Resources */,
 			);
@@ -160,7 +159,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBD6254B289FAAFE00DAB945 /* ShopData.swift in Sources */,
 				BB22B35D289BC86A00C97697 /* ContentView.swift in Sources */,
 				BB15E2C2289E493A00AC9FC8 /* WalkThroughScreen.swift in Sources */,
 				BB705279289E3669005B2B6D /* JSONManager.swift in Sources */,
