@@ -32,12 +32,12 @@ struct DetailView: View {
                 .font(.system(size: 16, weight: .light, design: .serif))
                 .lineSpacing(3)
                 .padding()
-                .frame(width: 300, height: 450, alignment: .center)
+                .frame(width: 300, height: 400, alignment: .top)
                 .background(Color.brown.opacity(0.1))
                 .cornerRadius(10)
                 .lineLimit(nil)
         }
-    }
+        }
         
 }
 }
