@@ -26,6 +26,7 @@ struct DetailView: View {
             Text("\(coffeeShopBrand.brandTitle)")
                 .font(.headline)
             
+            Text("Owned By : \(coffeeShopBrand.owner)")
             
             Spacer()
             
